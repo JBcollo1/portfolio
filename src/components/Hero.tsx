@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Full Stack Developer</h1>
         <p className="text-xl md:text-2xl mb-8">Turning ideas into reality through code</p>
         <div className="flex justify-center space-x-4">
-          <a href="#" className="text-white hover:text-indigo-200"><Github size={24} /></a>
+          <a href="https://github.com/JBcollo1" className="text-white hover:text-indigo-200"><Github size={24} /></a>
           <a href="#" className="text-white hover:text-indigo-200"><Linkedin size={24} /></a>
           <a href="#" className="text-white hover:text-indigo-200"><Mail size={24} /></a>
         </div>

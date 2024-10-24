@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold text-indigo-600">YourName</a>
+        <a href="#" className="text-2xl font-bold text-indigo-600">Jorbat Kamau</a>
         <nav className="hidden md:flex space-x-6">
           <a href="#about" className="text-gray-600 hover:text-indigo-600">About</a>
           <a href="#skills" className="text-gray-600 hover:text-indigo-600">Skills</a>

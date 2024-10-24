@@ -7,7 +7,7 @@ const About = () => {
         <h2 className="text-3xl font-bold text-center mb-8">About Me</h2>
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="Your Name" className="rounded-full w-48 h-48 object-cover mx-auto" />
+            <img src="./service/profile.jpeg" alt="Jorbat Kamau" className="rounded-full w-48 h-48 object-cover mx-auto" />
           </div>
           <div className="md:w-1/2">
             <p className="text-lg text-gray-700 leading-relaxed">
