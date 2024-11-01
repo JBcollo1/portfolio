@@ -3,10 +3,10 @@ import { Code, Database, Globe, Server } from 'lucide-react';
 
 const Skills = () => {
   const skillsets = [
-    { icon: <Globe size={24} />, title: 'Front-end', skills: ['React', 'Vue.js', 'HTML5', 'CSS3', 'JavaScript'] },
-    { icon: <Server size={24} />, title: 'Back-end', skills: ['Node.js', 'Express', 'Python', 'Django', 'Ruby on Rails'] },
-    { icon: <Database size={24} />, title: 'Databases', skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis'] },
-    { icon: <Code size={24} />, title: 'Other', skills: ['Git', 'Docker', 'AWS', 'RESTful APIs', 'GraphQL'] },
+    { icon: <Globe size={24} />, title: 'Front-end', skills: ['React', 'React Native', 'HTML5', 'CSS3', 'JavaScript','Typescript','Next.js'] },
+    { icon: <Server size={24} />, title: 'Back-end', skills: ['Node.js', 'Python','Flask'] },
+    { icon: <Database size={24} />, title: 'Databases', skills: [ 'PostgreSQL', 'MySQL'] },
+    { icon: <Code size={24} />, title: 'Other', skills: ['Git','GitHub', 'Docker', 'RESTful APIs'] },
   ];
 
   return (
