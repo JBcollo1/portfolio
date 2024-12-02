@@ -32,13 +32,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
       githubLink: 'https://github.com/JBcollo1/phase-2--project'
     },
-    { 
-      id: 5, 
-      title: 'Blog CMS', 
-      description: 'A content management system for blogs using Django and React', 
-      image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      githubLink: 'https://github.com/JBcollo1/Eco-eats'
-    },
+   
   ];
 
   return (
