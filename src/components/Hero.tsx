@@ -9,8 +9,8 @@ const Hero = () => {
         <p className="text-xl md:text-2xl mb-8">Turning ideas into reality through code</p>
         <div className="flex justify-center space-x-4">
           <a href="https://github.com/JBcollo1" className="text-white hover:text-indigo-200"><Github size={24} /></a>
-          <a href="#" className="text-white hover:text-indigo-200"><Linkedin size={24} /></a>
-          <a href="#" className="text-white hover:text-indigo-200"><Mail size={24} /></a>
+          <a href="https://www.linkedin.com/in/collins-undefined-4b65782ba/" className="text-white hover:text-indigo-200"><Linkedin size={24} /></a>
+          {/* <a href="#" className="text-white hover:text-indigo-200"><Mail size={24} /></a> */}
         </div>
       </div>
       <div className="absolute bottom-0 left-0 w-full overflow-hidden">
