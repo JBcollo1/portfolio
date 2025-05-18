@@ -1,31 +1,72 @@
-import React from 'react';
-import { Menu, X } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Menu, X, Moon, Sun } from 'lucide-react';
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+ 
+  // Initialize dark mode based on user preference
+
 
   return (
-    <header className="bg-white shadow-md">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <a href="#" className="text-2xl font-bold text-indigo-600">Jorbat Kamau</a>
-        <nav className="hidden md:flex space-x-6">
-          <a href="#about" className="text-gray-600 hover:text-indigo-600">About</a>
-          <a href="#skills" className="text-gray-600 hover:text-indigo-600">Skills</a>
-          <a href="#projects" className="text-gray-600 hover:text-indigo-600">Projects</a>
-          <a href="#contact" className="text-gray-600 hover:text-indigo-600">Contact</a>
-        </nav>
-        <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+    <header className="fixed w-full bg-white dark:bg-gray-900 shadow-md transition-all duration-300 z-50">
+      <div className="container mx-auto px-6 py-4">
+        <div className="flex items-center justify-between">
+          <a href="#" className="text-2xl font-bold text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+            Jorbat Kamau
+          </a>
+          
+          <div className="hidden md:flex items-center space-x-8">
+            <a href="#about" className="text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">About</a>
+            <a href="#skills" className="text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">Skills</a>
+            <a href="#projects" className="text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">Projects</a>
+          
+          </div>
+          
+          <div className="md:hidden flex items-center">
+           
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="text-gray-800 dark:text-white focus:outline-none"
+              aria-label="Open menu"
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+        </div>
       </div>
+      
       {isMenuOpen && (
-        <div className="md:hidden">
-          <nav className="flex flex-col items-center py-4 space-y-4">
-            <a href="#about" className="text-gray-600 hover:text-indigo-600">About</a>
-            <a href="#skills" className="text-gray-600 hover:text-indigo-600">Skills</a>
-            <a href="#projects" className="text-gray-600 hover:text-indigo-600">Projects</a>
-            <a href="#contact" className="text-gray-600 hover:text-indigo-600">Contact</a>
-          </nav>
+        <div className="md:hidden bg-white dark:bg-gray-900 shadow-lg animate-slideDown">
+          <div className="container mx-auto py-4 px-6 flex flex-col space-y-4">
+            <a 
+              href="#about" 
+              className="text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              About
+            </a>
+            <a 
+              href="#skills" 
+              className="text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Skills
+            </a>
+            <a 
+              href="#projects" 
+              className="text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Projects
+            </a>
+            <a 
+              href="#contact" 
+              className="text-gray-800 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact
+            </a>
+          </div>
         </div>
       )}
     </header>

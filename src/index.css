@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+ .animate-blink {
+   animation: blink 1s step-end infinite;
+ }
+ @keyframes blink {
+   from, to { opacity: 1; }
+   50% { opacity: 0; }
+ }
+ .animate-wave {
+   animation: wave 8s ease-in-out infinite alternate;
+ }
+ @keyframes wave {
+   0% { d: path('M0,32L60,42.7C120,53,240,75,360,69.3C480,64,600,32,720,21.3C840,11,960,21,1080,32C1200,43,1320,53,1380,58.7L1440,64L1440,100L1380,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z'); }
+   100% { d: path('M0,64L60,69.3C120,75,240,85,360,80C480,75,600,53,720,48C840,43,960,53,1080,58.7C1200,64,1320,64,1380,64L1440,64L1440,100L1380,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z'); }
+ }
+ .shape {
+   position: absolute;
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 50%;
+   animation: float 8s infinite;
+ }
+ .shape-1 {
+   width: 80px;
+   height: 80px;
+   top: 20%;
+   left: 10%;
+   animation-delay: 0s;
+ }
+ .shape-2 {
+   width: 60px;
+   height: 60px;
+   top: 30%;
+   right: 10%;
+   animation-delay: 2s;
+ }
+ .shape-3 {
+   width: 40px;
+   height: 40px;
+   bottom: 30%;
+   left: 20%;
+   animation-delay: 4s;
+ }
+ .shape-4 {
+   width: 100px;
+   height: 100px;
+   bottom: 40%;
+   right: 15%;
+   animation-delay: 6s;
+ }
+ @keyframes float {
+   0%, 100% { transform: translateY(0) rotate(0deg); }
+   50% { transform: translateY(-20px) rotate(10deg); }
+ }

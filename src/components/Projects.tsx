@@ -1,6 +1,6 @@
 import { ExternalLink, Github, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import vibe from "./service/Vibestream.webp";
 const Projects = () => {
   const projects = [
     { 
@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'Decentralized Lottery Platform', 
       description: 'Led 6-developer team building blockchain lottery used by 15,000+ users with 99.9% uptime handling 10,000+ concurrent users', 
       image: 'https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvY2tjaGFpbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      githubLink: 'https://github.com/JBcollo1',
+      githubLink: 'https://lottery-dao.vercel.app/',
       technologies: ['React', 'Solidity', 'Web3.js', 'Hardhat']
     },
     { 
@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'LumeLink Portfolio Platform', 
       description: 'Architected responsive portfolio platform with interactive map, achieving 97/100 Google PageSpeed score', 
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYnNpdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
-      githubLink: 'https://github.com/JBcollo1',
+      githubLink: 'https://lumelink.netlify.app/',
       technologies: ['React.js', 'Next.js', 'Google Maps API', 'Tailwind CSS']
     },
     { 
@@ -24,7 +24,7 @@ const Projects = () => {
       title: 'Food Delivery Management System', 
       description: 'Leading 4-developer team building comprehensive food ordering platform with real-time GPS tracking at 99.8% accuracy', 
       image: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-      githubLink: 'https://github.com/JBcollo1',
+      githubLink: 'https://castino.netlify.app/',
       technologies: ['React Native', 'TypeScript', 'Node.js', 'PostgreSQL', 'PHP']
     },
     { 
@@ -32,7 +32,7 @@ const Projects = () => {
       title: 'Enterprise Ticketing Application', 
       description: 'Built scalable system processing 800+ daily tickets with 99.99% uptime, reducing resolution time by 40%', 
       image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60',
-      githubLink: 'https://github.com/JBcollo1',
+      githubLink: 'https://fikaevents.netlify.app/',
       technologies: ['React.js', 'TypeScript', 'Express.js', 'MySQL']
     },
     { 
@@ -40,8 +40,25 @@ const Projects = () => {
       title: 'Smart Contract Development', 
       description: 'Deployed production-ready smart contracts on Avalanche blockchain with 40% reduced transaction costs', 
       image: 'https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvY2tjaGFpbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
-      githubLink: 'https://github.com/JBcollo1',
+      githubLink: 'https://github.com/JBcollo1/SmartContract',
       technologies: ['Solidity', 'Hardhat', 'Avalanche']
+    },
+      { 
+      id: 6, 
+      title: 'Hostel Discoveries', 
+      description: 'A full-stack hostel discovery solution with React and Node.js', 
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYnNpdGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60',
+      longDescription: 'Hostel Discoveries is a comprehensive platform connecting students with quality accommodation options. As Full-stack Developer, I built both frontend and backend components, implementing secure authentication, responsive design, and efficient search functionality that has attracted 3,000+ monthly active users.',
+      githubLink: 'https://moringahostels.netlify.app/',
+      technologies: ['React', 'Flask', 'MySQL', 'JWT', 'PHP', 'cPanel']
+    },
+      { 
+      id: 7, 
+      title: 'Vibestream-social platform', 
+      description: 'A React Native social media app with real-time data syncing and profile management.', 
+      image: vibe,
+      githubLink: 'https://github.com/JBcollo1/social',
+      technologies: ['React Native', 'Flask', 'MySQL', 'Python', 'WebSockets', 'Redis']
     }
   ];
 
