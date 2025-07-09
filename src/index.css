@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 30% 8%;          /* Dark Navy Blue - #101E2A */
+    --foreground: 0 0% 98%;            /* Off-white - #FAFAFA */
+
+    --card: 210 20% 14%;               /* Slate Blue - #1C2B38 */
+    --card-foreground: 0 0% 98%;
+
+    --popover: 210 20% 14%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 166 72% 40%;            /* Teal Green - #14B8A6 */
+    --primary-foreground: 210 30% 8%;  /* Background color for contrast */
+
+    --secondary: 210 25% 20%;          /* Steel Gray - #2C3E50 */
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 210 15% 25%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 204 70% 53%;             /* Sky Blue - #38BDF8 */
+    --accent-foreground: 210 30% 8%;
+
+    --destructive: 0 62.8% 40%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 15% 30%;
+    --input: 210 15% 30%;
+    --ring: 166 72% 40%;               /* Match primary (teal) */
+
+    --radius: 0.5rem;
+  }
+}
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+
+  section {
+    @apply py-16;
+  }
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full;
+  }
+
+  .typing-effect {
+    @apply overflow-hidden border-r-4 border-burntorange whitespace-nowrap animate-typing animate-blink;
+  }
+
+  .glass-effect {
+    @apply bg-slate bg-opacity-50 backdrop-filter backdrop-blur-sm;
+  }
+}
+
+/* Custom keyframes for typing and blink animations */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Custom animation utilities */
+@layer utilities {
+  .animate-typing {
+    animation: typing 2s steps(30, end) forwards;
+  }
+
+  .animate-blink {
+    animation: blink 0.75s step-end infinite;
+  }
+
+  .animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
