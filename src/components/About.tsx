@@ -39,28 +39,29 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold mt-3">About Me</h2>
         </motion.div>
 
-        <motion.div
+            <motion.div
           variants={itemVariants}
           className="prose prose-invert prose-lg max-w-none text-gray-300"
         >
           <p className="mb-6">
-            I’m a high-impact full-stack developer with a passion for transforming complex requirements into scalable, user-focused solutions. With deep expertise in modern JavaScript frameworks and backend technologies like React, Flask, Express.js, and blockchain platforms, I’ve delivered enterprise-grade applications that serve over 150+ users across multiple platforms.
+            Results-driven full-stack developer with 9+ months of professional experience delivering high-quality web applications and blockchain solutions. Successfully completed 10+ projects through internships and freelance engagements, impacting over 100 end users.
           </p>
           <p className="mb-6">
-            I’ve successfully implemented cutting-edge security protocols and optimized critical systems, achieving up to 60% reduction in latency and ensuring exceptional application performance and resilience. My development stack spans HTML, CSS, TypeScript, Python, PHP, and Web3 technologies—allowing me to build robust systems from the ground up.
+            Reduced application load times by 40–60% using performance optimization techniques, while enhancing system reliability and maintainability across multiple client projects. Skilled in designing secure, scalable, and efficient systems tailored to real-world demands.
           </p>
           <p>
-            I thrive in both collaborative and autonomous roles, blending strong technical skills with leadership and a constant drive to innovate. Whether architecting backend systems, enhancing user interfaces, or scaling infrastructure, I build software that’s efficient, secure, and built to last.
+            Proficient in modern technologies including React, Next.js, Flask, Express.js, Solidity, PostgreSQL, and Tailwind CSS. Adept at working both independently and collaboratively, delivering robust software across full development lifecycles.
           </p>
         </motion.div>
+
 
         <motion.div
           variants={itemVariants}
           className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
         >
           {[
-            { stat: "99.7%", label: "Uptime on deployed applications" },
-            { stat: "150+", label: "Users served across platforms" },
+            { stat: "97%", label: "Uptime on deployed applications" },
+            { stat: "15+", label: "Users served across platforms" },
             { stat: "50%", label: "Reduction in system latency" },
           ].map((item, index) => (
             <motion.div
