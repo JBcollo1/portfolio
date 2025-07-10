@@ -333,9 +333,9 @@ const Hero = () => {
                 }}
               >
                 {[
-                  { href: "https://github.com/dannykhan02", icon: Github, label: "GitHub" },
-                  { href: "https://www.linkedin.com/in/daniel-kemboi-73386a293/", icon: Linkedin, label: "LinkedIn" },
-                  { href: "mailto:danielkemboi462@gmail.com?subject=Project%20Inquiry&body=Hi%20Daniel,%0D%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20project%20with%20you.", icon: Mail, label: "Email" }
+                  { href: "https://github.com/JBcollo1", icon: Github, label: "GitHub" },
+                  { href: "https://www.linkedin.com/in/collins-undefined-4b65782ba/", icon: Linkedin, label: "LinkedIn" },
+                  { href: "mailto:jbcollins254@gmail.com?subject=Project%20Inquiry&body=Hi%20Collins,%0D%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20project%20with%20you.", icon: Mail, label: "Email" }
                 ].map((social, index) => (
                   <motion.a
                     key={social.label}

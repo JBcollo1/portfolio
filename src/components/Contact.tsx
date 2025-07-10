@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Contact = () => {
   const handleEmailClick = () => {
-    window.location.href = `mailto:danielkemboi462@gmail.com?subject=Hello%20Daniel&body=Hi%20Daniel,%0D%0AI%20would%20like%20to%20connect%20with%20you.`;
+    window.location.href = `mailto:jbcollins254@gmail.com?subject=Hello%20collins&body=Hi%20collins,%0D%0AI%20would%20like%20to%20connect%20with%20you.`;
   };
 
   return (
