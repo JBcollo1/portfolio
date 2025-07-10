@@ -5,99 +5,79 @@ import { useRef } from "react";
 const experiences = [
   {
     title: "Freelance Full-Stack & Mobile Developer",
-    company: "Self-Employed",
+    company: "Remote",
     period: "Aug 2024 – Present",
     description: [
-      "Managed 6+ client projects simultaneously, delivering all on time and maintaining 4.9/5 client satisfaction.",
-      "Built and deployed 8 production-ready apps generating over $50K in client revenue.",
-      "Implemented frontend and backend optimizations, improving app load times by 65%.",
-      "Delivered cross-platform mobile and web apps using scalable microservices and real-time technologies.",
-      "Technologies: React.js, React Native, Next.js, Node.js, TypeScript, PostgreSQL, PHP, WebSockets"
+      "Collaborated with cross-functional developers to manage 3–4 concurrent client projects with consistent delivery timelines.",
+      "Built and deployed 2 production-ready business applications, including an e-commerce platform and a logistics dashboard.",
+      "Implemented lazy loading, code splitting, and caching strategies to improve performance by 40–50%.",
+      "Created responsive UIs following accessibility and modern UX best practices across mobile and web.",
+      "Technologies: React.js, React Native, Next.js, Redux, Tailwind CSS, TypeScript, Vite"
     ]
   },
   {
-    title: "Technical Lead – Enterprise Ticketing Application",
-    company: "Freelance",
-    period: "Nov 2024 – Present",
+    title: "Independent Contractor",
+    company: "SaifyPOS",
+    period: "May 2024 – Jun 2024",
     description: [
-      "Architected a high-performance ticketing platform processing 800+ daily tickets with 99.99% uptime.",
-      "Implemented business dashboards reducing ticket resolution time by 40%.",
-      "Integrated real-time updates using WebSockets and built robust reporting tools.",
-      "Technologies: React.js, TypeScript, Express.js, MySQL, WebSockets"
-    ]
-  },
-  {
-    title: "Team Lead – Food Delivery Management System",
-    company: "Freelance",
-    period: "Nov 2024 – Present",
-    description: [
-      "Led a 4-person team to develop a comprehensive food ordering and logistics system.",
-      "Designed a scalable microservice architecture handling 1,000+ concurrent orders with real-time GPS tracking.",
-      "Built secure vendor portals and integrated payment solutions supporting 5+ payment methods.",
-      "Technologies: React Native, TypeScript, Node.js, PostgreSQL, PHP, cPanel"
-    ]
-  },
- {
-  title: "Independent Contractor",
-  company: "SaifyPOS",
-  period: "Mar 2024 – May 2024",
-  description: [
-    "Resolved over 20 high-impact bugs in legacy CodeIgniter-based university systems, improving platform stability and uptime.",
-    "Refactored multiple outdated WordPress plugins, implemented new features, and performed critical updates across 3+ client websites.",
-    "Built a custom web scraping script to automate product data extraction, saving clients 10+ hours/week in manual data entry.",
-    "Worked closely with non-technical stakeholders to scope and execute full-stack fixes under tight deadlines.",
-    "Technologies: JavaScript, PHP (CodeIgniter), MySQL, WordPress, HTML/CSS, Python (for scraping)"
-  ]
-},
-{
-  title: "2nd Place – Avalanche Blockchain Competition",
-  company: "Avalanche Team1 Africa",
-  period: "May 2025",
-  description: [
-    "Secured 2nd place among top competitor teams in the inaugural Avalanche Blockchain Competition held in Nairobi in May 2025.",
-    "Designed and delivered a decentralized solution leveraging Avalanche’s C‑Chain, achieving efficient smart contract deployment and token management.",
-    "Collaborated under pressure, integrating front‑end UX with Web3 wallet interactions and backend logic to meet tight hackathon deadlines.",
-    "Demonstrated strong use of blockchain security protocols, gas optimization, and scalable architecture in a competitive environment.",
-    "Selected to pitch our project to a panel of Avalanche experts and community leaders—earning recognition for innovation and execution.",
-    "Technologies: Solidity, Avalanche C‑Chain, JavaScript, HTML/CSS, Web3 wallets."
-  ]
-},
-
-
-  {
-    title: "Frontend Developer",
-    company: "Eco Eats",
-    period: "Apr 2024 – Oct 2024",
-    description: [
-      "Redesigned UI/UX to improve usability and customer satisfaction by 15%.",
-      "Engineered an analytics dashboard enhancing data interpretation by 30%.",
-      "Developed a reusable component library reducing frontend dev time by 35%.",
-      "Technologies: React.js, Tailwind CSS, Firebase, REST APIs"
+      "Worked alongside a small agile team to debug and refactor legacy CodeIgniter school management systems.",
+      "Resolved 5+ critical production bugs and addressed legacy compatibility issues affecting user operations.",
+      "Developed new dynamic modules such as fee processing and attendance management based on client needs.",
+      "Enhanced performance and security through optimized database queries and code clean-up.",
+      "Technologies: PHP, CodeIgniter, MySQL, JavaScript, HTML/CSS, Bootstrap"
     ]
   },
   {
     title: "Software Engineering Intern",
     company: "Koduor and Company Ltd",
-    period: "May 2024 – Aug 2024",
+    period: "Mar 2024 – May 2024",
     description: [
-      "Built components for a freelancer mobile platform used by over 5,000 users.",
-      "Contributed to a departmental ERP used by internal teams for resource planning.",
-      "Implemented core features of an internal ticketing tool with 99.5% uptime.",
-      "Technologies: React Native, Flask, PostgreSQL"
+      "Contributed to development of an open-source freelance logistics platform used by 10+ service providers.",
+      "Built React Native components for the consumer app and integrated real-time data updates using Flask APIs.",
+      "Collaborated on backend ERP modules used to coordinate 3 internal departments (HR, Dispatch, Admin).",
+      "Helped develop ticketing and notification systems with uptime exceeding 95%.",
+      "Technologies: React Native, Flask, PostgreSQL, Git, REST"
+    ]
+  },
+  {
+    title: "2nd Place – Avalanche Blockchain Competition",
+    company: "Avalanche Team1 Africa",
+    period: "May 2025",
+    description: [
+      "Secured 2nd place among top teams in the inaugural Avalanche Blockchain Hackathon in Nairobi.",
+      "Worked closely with team members to design a decentralized app (dApp) on Avalanche C-Chain handling tokenized event access.",
+      "Integrated frontend (React) with smart contracts (Solidity) and Web3 wallet interactions under time constraints.",
+      "Focused on contract logic, gas optimization, and modular architecture to ensure scalability and security.",
+      "Selected to pitch final prototype to Avalanche panel and gained recognition for innovation and clarity of execution.",
+      "Technologies: Solidity, Avalanche C‑Chain, JavaScript, HTML/CSS, Web3 wallets, Hardhat"
     ]
   },
   {
     title: "Software Engineering Intern",
     company: "CyberTap",
-    period: "Jan 2024 – Mar 2024",
+    period: "Nov 2024 – Jan 2025",
     description: [
-      "Built a secure auth system that reduced security incidents by 95%.",
-      "Developed APIs serving 50,000+ daily requests with 99.9% uptime.",
-      "Wrote automated tests increasing backend coverage from 60% to 90%.",
-      "Technologies: Python, Flask, PostgreSQL, Pytest"
+      "Collaborated with backend developers to build a secure authentication flow using JWTs and password hashing.",
+      "Developed and documented RESTful APIs handling 50+ daily requests with 99.9% uptime.",
+      "Wrote integration and unit tests, improving test coverage from 60% to over 90% using Jest and PyTest.",
+      "Participated in regular code reviews, sprints, and vulnerability assessments.",
+      "Technologies: Python, Flask, PostgreSQL, Jest, PyTest"
+    ]
+  },
+  {
+    title: "Frontend Developer",
+    company: "Eco Eats",
+    period: "Apr 2024 – Oct 2024",
+    description: [
+      "Built and maintained modular React components for a food delivery platform used by multiple restaurants.",
+      "Led frontend refactoring efforts that reduced code duplication and load times by 20%.",
+      "Collaborated on designing and developing an analytics dashboard, streamlining key performance metric analysis.",
+      "Contributed to building a reusable component library, reducing development cycles by 35%.",
+      "Technologies: React.js, Tailwind CSS, Chart.js, REST APIs"
     ]
   }
 ];
+
 
 const certifications = [
   { title: "Software Engineering", issuer: "Moringa School", date: "2024" },
