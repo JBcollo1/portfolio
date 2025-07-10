@@ -283,8 +283,8 @@ const Hero = () => {
               </motion.button>
               
               <motion.a
-                href="/JORBAT_COLLINS.docx"
-                download="JORBAT_COLLINS.docx"
+                href="/JORBAT_CV.docx"
+                download="JORBAT_CV.docx"
                 className="group inline-flex items-center px-8 py-4 border-2 rounded-full text-sm font-semibold transition-all duration-300 hover:shadow-lg"
                 style={{
                   borderColor: '#14B8A6',
