@@ -30,6 +30,12 @@ const skillIcons = {
   "Postman": "/postman.png",
   "RESTful APIs": "/restful-api.png",
   "Agile/Scrum": "/Agile.png",
+  // Blockchain
+  "Ethers.js": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6kdMDJaD3zxjv83zyQPGFSKLOZu18ePWzgA&s",
+  "Web3.js": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ0QOozHQhycFi4saOwa4HiEZreOZj11jEJQ&s",
+  "Solidity": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRdrCcOCQWIHSrREmIdNPomzYkxOdTArEwjQ&s",
+  "Avalanche Subnets": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCX131F3977adEV0vWIhHM7PkEKOcEZS87MQ&s",
+  
 };
 
 const skills = [
@@ -61,6 +67,15 @@ const skills = [
       { name: "PostgreSQL", icon: skillIcons["PostgreSQL"] },
       { name: "MySQL", icon: skillIcons["MySQL"] },
       { name: "Supabase", icon: skillIcons["Supabase"] },
+    ],
+  },
+   {
+    category: "Blockchain",
+    items: [
+      { name: "Ethers.js", icon: skillIcons["Ethers.js"] },
+      { name: "Web3.js", icon: skillIcons["Web3.js"] },
+      { name: "Solidity", icon: skillIcons["Solidity"] },
+      { name: "Avalanche Subnets", icon: skillIcons["Avalanche Subnets"] },
     ],
   },
   {

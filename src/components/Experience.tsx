@@ -49,6 +49,20 @@ const experiences = [
     "Technologies: JavaScript, PHP (CodeIgniter), MySQL, WordPress, HTML/CSS, Python (for scraping)"
   ]
 },
+{
+  title: "2nd Place – Avalanche Blockchain Competition",
+  company: "Avalanche Team1 Africa",
+  period: "May 2025",
+  description: [
+    "Secured 2nd place among top competitor teams in the inaugural Avalanche Blockchain Competition held in Nairobi in May 2025.",
+    "Designed and delivered a decentralized solution leveraging Avalanche’s C‑Chain, achieving efficient smart contract deployment and token management.",
+    "Collaborated under pressure, integrating front‑end UX with Web3 wallet interactions and backend logic to meet tight hackathon deadlines.",
+    "Demonstrated strong use of blockchain security protocols, gas optimization, and scalable architecture in a competitive environment.",
+    "Selected to pitch our project to a panel of Avalanche experts and community leaders—earning recognition for innovation and execution.",
+    "Technologies: Solidity, Avalanche C‑Chain, JavaScript, HTML/CSS, Web3 wallets."
+  ]
+},
+
 
   {
     title: "Frontend Developer",
@@ -86,13 +100,12 @@ const experiences = [
 ];
 
 const certifications = [
-  { title: "Software Engineering", issuer: "Moringa School", date: "2023" },
-  { title: "TypeScript Fundamentals", issuer: "FreeCodeCamp", date: "2021" },
+  { title: "Software Engineering", issuer: "Moringa School", date: "2024" },
+  { title: "Harvard University – CS50x", issuer: "FreeCodeCamp", date: "2024" },
   { title: "PHP & cPanel Deployment", issuer: "Coursera", date: "2024" },
   { title: "Advanced React Patterns", issuer: "FreeCodeCamp", date: "2022" },
-  { title: "AWS Cloud Practitioner", issuer: "Amazon Web Services", date: "2022" },
-  { title: "Agile Project Management", issuer: "Scrum.org", date: "2022" }
-];
+  { title: "AWS Cloud Practitioner", issuer: "Amazon Web Services", date: "2023" },
+  { title: "Advanced python programming", issuer: "python institute", date: "2022" }];
 
 const softSkills = [
   "Communication",
@@ -103,7 +116,7 @@ const softSkills = [
   "Time management",
   "Empathy",
   "Leadership",
-  "Conflict resolution",
+  
   "Decision making"
 ];
 

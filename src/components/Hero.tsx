@@ -283,8 +283,8 @@ const Hero = () => {
               </motion.button>
               
               <motion.a
-                href="/daniel_kemboi_cv.docx"
-                download="Daniel_Kemboi_CV.docx"
+                href="/JORBAT_COLLINS.docx"
+                download="JORBAT_COLLINS.docx"
                 className="group inline-flex items-center px-8 py-4 border-2 rounded-full text-sm font-semibold transition-all duration-300 hover:shadow-lg"
                 style={{
                   borderColor: '#14B8A6',
@@ -439,7 +439,7 @@ const Hero = () => {
                   transition={{ duration: 0.7 }}
                 >
                   <img
-                    src="/profile-picture.png"
+                    src="/profile-picture.jpg"
                     alt="Jorbat Collins - Full Stack Developer"
                     className="object-cover h-full w-full rounded-full"
                   />
