@@ -56,7 +56,7 @@ const skills = [
     items: [
       { name: "Node.js", icon: skillIcons["Node.js"] },
       { name: "Python", icon: skillIcons["Python"] },
-      { name: "PHP", icon: skillIcons["PHP"] },
+      // { name: "PHP", icon: skillIcons["PHP"] },
       { name: "Flask", icon: skillIcons["Flask"] },
     ],
   },
