@@ -82,7 +82,7 @@ const experiences = [
 const certifications = [
   { title: "Software Engineering", issuer: "Moringa School", date: "2024" },
   { title: "Harvard University – CS50x", issuer: "FreeCodeCamp", date: "2024" },
-  { title: "PHP & cPanel Deployment", issuer: "Coursera", date: "2024" },
+  { title: "COmputer Science", issuer: "Mount Kenya University", date: "Ongoing" },
   { title: "Advanced React Patterns", issuer: "FreeCodeCamp", date: "2022" },
   { title: "AWS Cloud Practitioner", issuer: "Amazon Web Services", date: "2023" },
   { title: "Advanced python programming", issuer: "python institute", date: "2022" }];
