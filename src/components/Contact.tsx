@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="flex flex-col items-center space-y-6">
           {/* Contact Information */}
           <div className="text-center mb-6">
-            <h3 className="text-xl font-bold mb-2">Jorbat Collins Kimaiyo</h3>
+            <h3 className="text-xl font-bold mb-2">Jorbat Collins </h3>
             <p className="text-gray-300">Email: jbcollins254@gmail.com</p>
             <p className="text-gray-300">WhatsApp: +254102256122</p>
           </div>
