@@ -43,7 +43,7 @@ const Contact = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://wa.me/254746604602"
+              href="https://wa.me/254102256122"
               target="_blank"
               rel="noopener noreferrer"
             >
